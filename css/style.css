@@ -8740,7 +8740,7 @@ h6,
 .menu {
   /* GRID LAYOUT - 3 IMAGES PER ROW */
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px;
 
   /* WIDTH RESTRICT */
