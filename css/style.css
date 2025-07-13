@@ -8736,18 +8736,16 @@ h6,
   transform: none;
 }
 
-/* MENU WRAPPER */
 .menu {
-  /* GRID LAYOUT - 3 IMAGES PER ROW */
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 1fr; /* One column taking full available width */
   grid-gap: 10px;
 
-  /* WIDTH RESTRICT */
   max-width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
+
 
 /* menu IMAGES */
 .menu img {
