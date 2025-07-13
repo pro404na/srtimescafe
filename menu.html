@@ -26,18 +26,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <!-- Bootstrap CSS (add if missing) -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
-
-    <!-- Customized Stylesheet (moved styles inline below) -->
+    <!-- Customized Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+     <!-- All CSS inside this style tag -->
     <style>
       /* MENU WRAPPER */
       .menu {
         display: grid;
-        grid-template-columns: 1fr; /* 1 column, stack vertically */
+        grid-template-columns: 1fr; /* single column layout */
         grid-gap: 10px;
         max-width: 1000px;
         margin: 0 auto;
@@ -53,10 +49,12 @@
         background: #fff;
         object-fit: contain;
         position: relative;
-        display: block;   /* remove inline gap */
+        display: block;   /* remove inline spacing */
         margin-left: auto;
-        margin-right: auto; /* center image horizontally */
+        margin-right: auto; /* center horizontally */
       }
+
+      /* You can add other custom styles here if needed */
     </style>
   </head>
 
@@ -115,8 +113,8 @@
           </h4>
           <div>
             <div class="menu">
-              <img src="/img/menu/1.jpg" alt="Menu Item 1" />
-              <img src="/img/menu/2.jpg" alt="Menu Item 2" />
+              <img src="/img/menu/1.jpg" />
+              <img src="/img/menu/2.jpg" />
             </div>
           </div>
         </div>
@@ -140,8 +138,8 @@
           <p><i class="fa fa-map-marker-alt mr-2"></i>Talchowk, Pokhara</p>
 
           <p><i class="fa fa-phone-alt mr-2"></i>981-9162389</p>
-          <p><i class="fa fa-phone-alt mr-2"></i>061-562022</p>
-          <p><i class="fa fa-phone-alt mr-2"></i>9820286255</p>
+           <p><i class="fa fa-phone-alt mr-2"></i>061-562022</p>
+           <p><i class="fa fa-phone-alt mr-2"></i>9820286255</p>
           <p class="m-0">
             <i class="fa fa-envelope mr-2"></i>srtimescafe@gmail.com
           </p>
