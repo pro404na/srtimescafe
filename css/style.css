@@ -8747,21 +8747,18 @@ h6,
 }
 
 
-/* menu IMAGES */
 .menu img {
-  /* DIMENSIONS */
-  height: 600px;
+  width: 90%;       /* Set width to 90% of the container */
+  height: auto;     /* Height adjusts automatically to keep aspect ratio */
   padding: 5px;
 
-  /* COLORS */
   border: 1px solid #ddd;
   background: #fff;
 
-  /* IMAGE RESIZE */
-  /* cover | contain | fill | scale-down */
-  object-fit: contain;
+  object-fit: contain; /* Ensures image fits inside without cropping or stretching */
   position: relative;
 }
+
 
 .menu iframe {
   /* DIMENSIONS */
